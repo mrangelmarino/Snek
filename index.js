@@ -232,6 +232,7 @@ class Snek {
   }
 
   start() {
+    clearInterval(this.interval)
     this.interval = setInterval(this.step.bind(this), 100)
   }
 
