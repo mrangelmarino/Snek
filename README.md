@@ -2,6 +2,27 @@
 i am hiss.
 
 ## usage:
+```javascript
+// instantiate and it appends to the body with default options
+new Snek();
+```
+
+```javascript
+// append to specified element
+new Snek('#example')
+new Snek('.example')
+```
+
+```javascript
+// instantiate with options
+new Snek({
+  width: 200,
+  height: 200,
+  size: 15
+})
+```
+
+## example:
 1. drag example/index.html into your browser
 _or_
 2. double click on example/index.html
