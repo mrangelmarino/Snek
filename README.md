@@ -28,6 +28,7 @@ _or_
 2. double click on example/index.html
 
 ## todo:
+0. JSDoc
 1. unit tests
 2. make not be ugly
 3. randomize snake spawn points
